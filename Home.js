@@ -45,7 +45,7 @@ form.addEventListener('submit',async(e)=>{  //Api headers clean, data in form of
         }
     }
     catch(err){
-        console.log("Error: ",err.value);
+        console.log("Error: ",err.message);
     }
 })
 
